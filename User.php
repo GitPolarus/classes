@@ -5,6 +5,8 @@ class User extends Personne
     private string $pass;
     private string $email;
 
+
+
     public function __construct(string $nom, int $age, string $email, string $pass)
     {
         parent::__construct($nom, $age);

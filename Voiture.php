@@ -16,5 +16,26 @@ class Voiture extends Vehicule
         return "Marque : " . $this->marque . " de Color " . $this->color;
     }
 
+    public function info()
+    {
 
+        echo "Hello I am A car \n";
+    }
+
+
+    /**
+     * @return mixed
+     */
+    public function on()
+    {
+        echo "The car is On";
+    }
+
+    /**
+     * @return mixed
+     */
+    public function of()
+    {
+        echo "The car is Of";
+    }
 }

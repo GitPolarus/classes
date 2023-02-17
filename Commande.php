@@ -11,6 +11,7 @@ class Commande
 
     public float $prix;
 
+    const PI = 3.14;
     public function __construct(int $numero, Client $client, Voiture $voiture, int $qte, float $prix)
     {
         $this->numero = $numero;
